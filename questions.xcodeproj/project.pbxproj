@@ -7,21 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1302B9201E4D59DC004E36E7 /* Gryffindor_Crest-0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1302B91F1E4D59DC004E36E7 /* Gryffindor_Crest-0.jpg */; };
 		13793DB01E4C21BC003DB783 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13793DAF1E4C21BC003DB783 /* AppDelegate.swift */; };
 		13793DB21E4C21BC003DB783 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13793DB11E4C21BC003DB783 /* ViewController.swift */; };
-		13793DB51E4C21BD003DB783 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13793DB31E4C21BC003DB783 /* Main.storyboard */; };
 		13793DB71E4C21BD003DB783 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13793DB61E4C21BD003DB783 /* Assets.xcassets */; };
 		13793DBA1E4C21BD003DB783 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13793DB81E4C21BD003DB783 /* LaunchScreen.storyboard */; };
+		13793DC21E4CE94D003DB783 /* hufflepuff.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 13793DC11E4CE94D003DB783 /* hufflepuff.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1302B91F1E4D59DC004E36E7 /* Gryffindor_Crest-0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Gryffindor_Crest-0.jpg"; path = "../../../../Downloads/Gryffindor_Crest-0.jpg"; sourceTree = "<group>"; };
 		13793DAC1E4C21BC003DB783 /* questions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = questions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13793DAF1E4C21BC003DB783 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13793DB11E4C21BC003DB783 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		13793DB41E4C21BC003DB783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		13793DB61E4C21BD003DB783 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		13793DB91E4C21BD003DB783 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		13793DBB1E4C21BD003DB783 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13793DC11E4CE94D003DB783 /* hufflepuff.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hufflepuff.jpg; path = ../../../../Downloads/hufflepuff.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +58,9 @@
 			children = (
 				13793DAF1E4C21BC003DB783 /* AppDelegate.swift */,
 				13793DB11E4C21BC003DB783 /* ViewController.swift */,
-				13793DB31E4C21BC003DB783 /* Main.storyboard */,
 				13793DB61E4C21BD003DB783 /* Assets.xcassets */,
+				1302B91F1E4D59DC004E36E7 /* Gryffindor_Crest-0.jpg */,
+				13793DC11E4CE94D003DB783 /* hufflepuff.jpg */,
 				13793DB81E4C21BD003DB783 /* LaunchScreen.storyboard */,
 				13793DBB1E4C21BD003DB783 /* Info.plist */,
 			);
@@ -96,8 +99,7 @@
 				TargetAttributes = {
 					13793DAB1E4C21BB003DB783 = {
 						CreatedOnToolsVersion = 8.2;
-						DevelopmentTeam = GZ3DJPE49T;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -124,9 +126,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1302B9201E4D59DC004E36E7 /* Gryffindor_Crest-0.jpg in Resources */,
 				13793DBA1E4C21BD003DB783 /* LaunchScreen.storyboard in Resources */,
+				13793DC21E4CE94D003DB783 /* hufflepuff.jpg in Resources */,
 				13793DB71E4C21BD003DB783 /* Assets.xcassets in Resources */,
-				13793DB51E4C21BD003DB783 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,14 +148,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		13793DB31E4C21BC003DB783 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				13793DB41E4C21BC003DB783 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		13793DB81E4C21BD003DB783 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -259,7 +254,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GZ3DJPE49T;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = questions/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.abhisheknks.questions;
@@ -272,7 +267,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GZ3DJPE49T;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = questions/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.abhisheknks.questions;
@@ -300,6 +295,7 @@
 				13793DC01E4C21BD003DB783 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
